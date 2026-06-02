@@ -1,0 +1,80 @@
+body {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: "Roboto", sans-serif;
+}
+
+.unit-converter {
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 500px;
+}
+
+.unit-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6943ff;
+  padding: 20px 30px;
+}
+
+#input-feld {
+  background-color: #6943ff;
+  border: 1px solid #b699ff;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width: 80px;
+  border-radius: 3px;
+  font-weight: 700; /* Bold */
+  font-size: 3rem;
+}
+
+#input-btn {
+  border: none;
+  background-color: #ffffff;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+}
+.unit-output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f4f4f4;
+  padding: 20px 30px;
+}
+
+.output-length,
+.output-volume,
+.output-mass {
+  background-color: #ffffff;
+  text-align: center;
+  width: 400px;
+  height: 80px;
+  padding: 10px 20px;
+}
+.output-titel {
+  color: #48416d;
+}
+
+.unit-input,
+.unit-output {
+  width: 100%;
+}
+
+#length-result,
+#volume-result,
+#mass-result {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
